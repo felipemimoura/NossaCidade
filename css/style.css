@@ -1,0 +1,102 @@
+* {
+  /* Retirando configurações inicias do navegador */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Helvetica', sans-serif; /* fonte padrao para o site */
+  background: #fff url(../images/fundo.png) repeat-x; /* Colocando o plano de fundo */
+}
+#container {
+  width: 750px; /* comprimento */
+  margin: 0 auto;
+}
+
+#topo {
+  height: 150px; /* altura */
+  background: url(../images/detalhe-topo.png) no-repeat right top; /* Imagem de fundo */
+  padding-top: 25px; /* Espaçamento interno ao top */
+}
+
+.logo {
+  width: 152px; /* comprimentp */
+  height: 66px; /* altura */
+  background: url(../images/logo.png) no-repeat center; /* imagem de fundo */
+  text-indent: -3000px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#topo ul {
+  margin-top: 30px;
+  background: #b10333;
+  float: left;
+}
+
+#navegacao-horizontal li {
+  float: left;
+}
+#topo ul a {
+  font-size: 0.9em;
+  display: block;
+  padding: 0.5em 1.5em;
+  line-height: 2.1em;
+  text-decoration: none;
+  color: #fff;
+  background: url(../images/divisor.png) no-repeat left center;
+}
+#topo ul .primeiro a {
+  background: none;
+}
+#navegacao-horizontal a:hover {
+  color: #69001d;
+}
+
+body.home #navegacao-horizontal a#home,
+body.brasil #navegacao-horizontal a#brasil,
+body.internacional #navegacao-horizontal a#internacional,
+body.economia #navegacao-horizontal a#economia,
+body.saude #navegacao-horizontal a#saude,
+body.ciencia #navegacao-horizontal a#ciencia,
+body.fotos #navegacao-horizontal a#fotos {
+  color: #fff;
+  background: #de003e;
+  cursor: text;
+}
+
+#conteudo {
+  margin-top: 60px;
+  background: #f5f5f5;
+}
+#primario {
+  width: 270px;
+  float: left;
+  margin: 0 0 20px 195px;
+  background: blue;
+}
+#secundario {
+  width: 270px;
+  float: left;
+  margin: 0 0 20px 15px;
+  background: green;
+}
+#lateral {
+  width: 180px;
+  float: left;
+  margin: 0 0 20px -750px;
+  background: yellow;
+}
+
+#container-rodape {
+  background: #294c71;
+  padding: 20px;
+}
+
+#rodape {
+  width: 750px;
+  margin: 0 auto;
+  color: #fff;
+}
